@@ -89,7 +89,7 @@ export default StyleSheet.create({
         alignItems: 'center',
         borderRadius: 20,
         borderWidth: 4,
-        borderColor: '#26a1f4',
+        borderColor: '#7CE88C',
         width: 140,
         height: 140,
     },

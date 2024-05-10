@@ -19,7 +19,7 @@ function Sanduiche() {
             <Drawer.Navigator initialRouteName="Home" screenOptions={{
                 headerShown: false,
                 drawerStyle: {
-                    backgroundColor: 'white',
+                    backgroundColor: '#FCF3CF',
                     width: 250,
                 },
             }}>

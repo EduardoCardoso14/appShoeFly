@@ -37,7 +37,7 @@ function Home({ navigation }) {
     <View style={styles.container}>
       <Nav></Nav>
       <View style={stylehome.viewimgmlk}>
-        <Image source={require('./assets/kidtoy.jpg')} style={stylehome.imgmlk}></Image>
+        <Image source={require('./assets/kidplay.gif')} style={stylehome.imgmlk}></Image>
       </View>
       <View style={stylehome.viewtextmain}>
         <Text style={stylehome.textmain}>Toy Fly - Seu aplicativo para comprar brinquedos!</Text>

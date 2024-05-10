@@ -8,7 +8,7 @@ function Nav() {
     const navigation = useNavigation();
 
     const [id, setId] = useState('');
-    const [imagem, setImagem] = useState('https://cdn-icons-png.flaticon.com/512/20/20079.png');
+    const [imagem, setImagem] = useState('https://png.pngtree.com/png-vector/20191018/ourlarge/pngtree-user-icon-isolated-on-abstract-background-png-image_1824979.jpg');
     const [nome, setNome] = useState('');
     const [email, setEmail] = useState('');
     /*console.log(route.params);
@@ -86,7 +86,7 @@ function Nav() {
 
     const clearAsyncStorage = async () => {
         AsyncStorage.clear();
-        setImagem("https://cdn-icons-png.flaticon.com/512/20/20079.png");
+        setImagem("https://png.pngtree.com/png-vector/20191018/ourlarge/pngtree-user-icon-isolated-on-abstract-background-png-image_1824979.jpg");
         setId('');
         setNome('');
         setEmail('');

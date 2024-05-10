@@ -14,7 +14,7 @@ export default StyleSheet.create({
         alignItems: 'center',
         borderRadius: 20,
         borderWidth: 5,
-        borderColor: '#26a1f4',
+        borderColor: '#83F894',
         width: 300,
         height: 300,
     },

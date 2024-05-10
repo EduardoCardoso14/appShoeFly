@@ -4,10 +4,13 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import styles from './style/global';
 import styleprodutos from './style/styleprodutos';
 import { useNavigation } from '@react-navigation/native';
-function Lista5a8({ route }) {
+
+
+function ListaPromocao({ route }) {
+
     const [produtos, setProdutos] = useState([]);
     useEffect(() => {
-        fetch('http://172.16.42.89/apitoyfly/select5a8/')
+        fetch('http://172.16.42.89/apitoyfly/selecttudo/')
             //fetch('https://api.semlimite.app.br/select/')
             .then(response => response.json())
             .then(data => setProdutos(data))
@@ -15,7 +18,7 @@ function Lista5a8({ route }) {
     }, []);
     const navigation = useNavigation();
     const vambora = (a, b, c, d, e) => {
-        var idade = "5a8";
+        var idade = "tudo";
         navigation.navigate('Carrinho', { id: a, imagem: b, nome: c, descricao: d, preco: e, idade });
     }
 
@@ -58,4 +61,4 @@ function Lista5a8({ route }) {
     );
 }
 
-export default Lista5a8;
+export default ListaPromocao;

@@ -9,6 +9,7 @@ import Lista1a3 from './Lista1a3';
 import Lista3a5 from './Lista3a5';
 import Lista5a8 from './Lista5a8';
 import Lista8a12 from './Lista8a12';
+import ListaPromocao from './ListaPromocao';
 
 function Produtos({ navigation, route }) {
     const { valor } = route.params;
@@ -42,6 +43,14 @@ function Produtos({ navigation, route }) {
             {valor == 4 ?
                 <>
                     <Lista8a12></Lista8a12>
+                </>
+                :
+                <>
+                </>
+            }
+            {valor == 5 ?
+                <>
+                    <ListaPromocao></ListaPromocao>
                 </>
                 :
                 <>

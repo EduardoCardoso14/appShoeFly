@@ -26,6 +26,10 @@ function ListaIdade({ navigation }) {
     var valor = 4;
     navigation.navigate('Produtos', { valor });
   };
+  const promocao = () => {
+    var valor = 5;
+    navigation.navigate('Produtos', {valor});
+  };
 
   /*const loadValue = async () => {
     try {
@@ -45,7 +49,9 @@ function ListaIdade({ navigation }) {
     <View style={styles.container}>
       <Nav></Nav>
       <View style={stylelistaidade.viewimgmlk}>
+      <TouchableOpacity style={stylelistaidade.touchbutton} onPress={promocao}>
         <Image source={require('./assets/banner.png')} style={stylelistaidade.imgmlk}></Image>
+        </TouchableOpacity>
       </View>
 
       <SafeAreaView style={stylelistaidade.idades}>
